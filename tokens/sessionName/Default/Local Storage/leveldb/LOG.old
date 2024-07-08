@@ -1,0 +1,4 @@
+2024/07/08-18:52:07.295 4d40 Reusing MANIFEST E:\xampp\htdocs\Mern stack\mern-stack\backend\tokens\sessionName\Default\Local Storage\leveldb/MANIFEST-000001
+2024/07/08-18:52:07.305 4d40 Recovering log #4
+2024/07/08-18:52:07.305 4d40 (ignoring error) E:\xampp\htdocs\Mern stack\mern-stack\backend\tokens\sessionName\Default\Local Storage\leveldb/000004.log: dropping 2809 bytes; Corruption: missing start of fragmented record(2)
+2024/07/08-18:52:07.310 4d40 Reusing old log E:\xampp\htdocs\Mern stack\mern-stack\backend\tokens\sessionName\Default\Local Storage\leveldb/000004.log 

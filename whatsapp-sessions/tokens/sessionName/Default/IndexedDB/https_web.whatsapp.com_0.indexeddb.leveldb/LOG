@@ -1,0 +1,51 @@
+2024/07/08-03:32:29.780 4db8 Reusing MANIFEST E:\xampp\htdocs\Mern stack\mern-stack\backend\whatsapp-sessions\tokens\sessionName\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/08-03:32:29.783 4db8 Recovering log #1933
+2024/07/08-03:32:29.989 4db8 Reusing old log E:\xampp\htdocs\Mern stack\mern-stack\backend\whatsapp-sessions\tokens\sessionName\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001933.log 
+2024/07/08-03:32:30.193 4db8 Level-0 table #1953: started
+2024/07/08-03:32:30.485 4db8 Level-0 table #1953: 981167 bytes OK
+2024/07/08-03:32:30.512 4db8 Delete type=0 #1933
+2024/07/08-03:32:32.307 4700 Compacting 1@0 + 0@1 files
+2024/07/08-03:32:32.545 4700 Generated table #1954@0: 20376 keys, 428161 bytes
+2024/07/08-03:32:32.623 4700 Generated table #1955@0: 1076 keys, 25566 bytes
+2024/07/08-03:32:32.624 4700 Compacted 1@0 + 0@1 files => 453727 bytes
+2024/07/08-03:32:32.695 4700 compacted to: files[ 0 2 19 0 0 0 0 ]
+2024/07/08-03:32:32.697 4700 Delete type=2 #1953
+2024/07/08-03:32:32.738 4700 Level-0 table #1957: started
+2024/07/08-03:32:32.789 4700 Level-0 table #1957: 11482 bytes OK
+2024/07/08-03:32:32.813 4700 Delete type=0 #1952
+2024/07/08-03:32:32.820 4db8 Manual compaction at level-0 from '\x00 \x00\x00\x00' @ 72057594037927935 : 1 .. '\x00!\x00\x00\x00' @ 0 : 0; will stop at '\x00 \x00\x00\x05' @ 6100052 : 1
+2024/07/08-03:32:32.820 4db8 Compacting 1@0 + 2@1 files
+2024/07/08-03:32:32.977 4db8 Generated table #1958@0: 20653 keys, 434030 bytes
+2024/07/08-03:32:33.017 4db8 Generated table #1959@0: 1078 keys, 25587 bytes
+2024/07/08-03:32:33.017 4db8 Compacted 1@0 + 2@1 files => 459617 bytes
+2024/07/08-03:32:33.042 4db8 compacted to: files[ 0 2 19 0 0 0 0 ]
+2024/07/08-03:32:33.049 4db8 Delete type=2 #1957
+2024/07/08-03:32:33.051 4700 Manual compaction at level-0 from '\x00 \x00\x00\x05' @ 6100052 : 1 .. '\x00!\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/07/08-03:32:33.052 4700 Manual compaction at level-1 from '\x00 \x00\x00\x00' @ 72057594037927935 : 1 .. '\x00!\x00\x00\x00' @ 0 : 0; will stop at '\x00 \x00\x00\x05' @ 6100071 : 0
+2024/07/08-03:32:33.052 4700 Compacting 1@1 + 4@2 files
+2024/07/08-03:32:33.574 4700 Generated table #1960@1: 102559 keys, 2253427 bytes
+2024/07/08-03:32:34.189 4700 Generated table #1961@1: 100917 keys, 2252387 bytes
+2024/07/08-03:32:34.589 4700 Generated table #1962@1: 93467 keys, 2141904 bytes
+2024/07/08-03:32:34.590 4700 Compacted 1@1 + 4@2 files => 6647718 bytes
+2024/07/08-03:32:34.627 4700 compacted to: files[ 0 1 18 0 0 0 0 ]
+2024/07/08-03:32:34.629 4700 Delete type=2 #1959
+2024/07/08-03:32:34.630 4db8 Manual compaction at level-1 from '\x00 \x00\x00\x05' @ 6100071 : 0 .. '\x00!\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/07/08-03:32:38.242 4700 Compacting 1@1 + 9@2 files
+2024/07/08-03:32:38.730 4700 Generated table #1963@1: 49980 keys, 2221464 bytes
+2024/07/08-03:32:39.291 4700 Generated table #1964@1: 50237 keys, 2209207 bytes
+2024/07/08-03:32:39.628 4700 Generated table #1965@1: 45333 keys, 2208459 bytes
+2024/07/08-03:32:39.865 4700 Generated table #1966@1: 1689 keys, 2151508 bytes
+2024/07/08-03:32:40.129 4700 Generated table #1967@1: 2879 keys, 2160940 bytes
+2024/07/08-03:32:40.460 4700 Generated table #1968@1: 2983 keys, 2159445 bytes
+2024/07/08-03:32:40.776 4700 Generated table #1969@1: 14694 keys, 2179882 bytes
+2024/07/08-03:32:41.142 4700 Generated table #1970@1: 27891 keys, 2268662 bytes
+2024/07/08-03:32:41.525 4700 Generated table #1971@1: 32032 keys, 2208826 bytes
+2024/07/08-03:32:41.610 4700 Generated table #1972@1: 42 keys, 41818 bytes
+2024/07/08-03:32:41.610 4700 Compacted 1@1 + 9@2 files => 19810211 bytes
+2024/07/08-03:32:41.645 4700 compacted to: files[ 0 0 19 0 0 0 0 ]
+2024/07/08-03:32:41.646 4700 Delete type=2 #1947
+2024/07/08-03:32:41.646 4700 Delete type=2 #1948
+2024/07/08-03:32:41.647 4700 Delete type=2 #1949
+2024/07/08-03:32:41.648 4700 Delete type=2 #1950
+2024/07/08-03:32:41.648 4700 Delete type=2 #1954
+2024/07/08-03:32:41.648 4700 Delete type=2 #1955

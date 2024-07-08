@@ -1,0 +1,30 @@
+2024/07/08-18:56:02.286 19e0 Reusing MANIFEST E:\xampp\htdocs\Mern stack\mern-stack\backend\tokens\sessionName\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/07/08-18:56:02.287 19e0 Recovering log #432
+2024/07/08-18:56:02.346 19e0 Reusing old log E:\xampp\htdocs\Mern stack\mern-stack\backend\tokens\sessionName\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000432.log 
+2024/07/08-18:56:05.217 55b0 Level-0 table #440: started
+2024/07/08-18:56:05.378 55b0 Level-0 table #440: 776414 bytes OK
+2024/07/08-18:56:05.400 55b0 Delete type=0 #432
+2024/07/08-18:56:05.400 19e0 Manual compaction at level-0 from '\x00a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00b\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/07/08-18:56:05.406 19e0 Level-0 table #442: started
+2024/07/08-18:56:05.483 19e0 Level-0 table #442: 436 bytes OK
+2024/07/08-18:56:05.511 19e0 Delete type=0 #439
+2024/07/08-18:56:05.511 19e0 Manual compaction at level-0 from '\x00b\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00c\x00\x00\x00' @ 0 : 0; will stop at '\x00b\x00\x00\x05' @ 1660392 : 0
+2024/07/08-18:56:05.511 19e0 Compacting 1@0 + 1@1 files
+2024/07/08-18:56:05.627 19e0 Generated table #443@0: 16644 keys, 379171 bytes
+2024/07/08-18:56:05.627 19e0 Compacted 1@0 + 1@1 files => 379171 bytes
+2024/07/08-18:56:05.655 19e0 compacted to: files[ 0 1 4 0 0 0 0 ]
+2024/07/08-18:56:05.655 19e0 Delete type=2 #442
+2024/07/08-18:56:05.655 19e0 Manual compaction at level-0 from '\x00b\x00\x00\x05' @ 1660392 : 0 .. '\x00c\x00\x00\x00' @ 0 : 0; will stop at (end)
+2024/07/08-18:56:06.993 3e1c Compacting 1@1 + 4@2 files
+2024/07/08-18:56:07.385 3e1c Generated table #444@1: 39601 keys, 2204154 bytes
+2024/07/08-18:56:07.714 3e1c Generated table #445@1: 60045 keys, 2223541 bytes
+2024/07/08-18:56:08.109 3e1c Generated table #446@1: 18650 keys, 2189413 bytes
+2024/07/08-18:56:08.439 3e1c Generated table #447@1: 54677 keys, 2132591 bytes
+2024/07/08-18:56:08.439 3e1c Compacted 1@1 + 4@2 files => 8749699 bytes
+2024/07/08-18:56:08.505 3e1c compacted to: files[ 0 0 4 0 0 0 0 ]
+2024/07/08-18:56:08.505 3e1c Delete type=2 #434
+2024/07/08-18:56:08.506 3e1c Delete type=2 #435
+2024/07/08-18:56:08.506 3e1c Delete type=2 #436
+2024/07/08-18:56:08.506 3e1c Delete type=2 #437
+2024/07/08-18:56:08.506 3e1c Delete type=2 #440
+2024/07/08-18:56:08.506 3e1c Delete type=2 #443
