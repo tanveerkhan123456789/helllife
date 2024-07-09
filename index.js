@@ -1,10 +1,8 @@
 const venom = require('venom-bot');
 const path = require('path');
 const fs = require('fs');
-const mongoose = require('mongoose');
 const express = require('express');
 const multer = require('multer');
-const { Online_db_connection, local_db_connection } = require('./database/index');
 
 // Multer storage configuration
 const storage = multer.diskStorage({
@@ -61,7 +59,6 @@ async function startVenom() {
 
 // Create Express app
 const app = express();
-const port = 3000; // Example port
 
 // Set up EJS templating engine
 app.set('view engine', 'ejs');
@@ -106,23 +103,7 @@ app.post('/send', upload.single('image'), async (req, res) => {
             logs.push(`Image sent to ${number}: ${JSON.stringify(imageResult)}`);
         }
 
-        // Save message details to MongoDB
-        const messageDetails = {
-            phoneNumber: number,
-            textMessage: {
-                content: message,
-                status: textResult.error ? 'failed' : 'sent',
-                result: textResult
-            },
-            imageMessage: {
-                url: imageUrl,
-                caption: 'Image from website',
-                status: imageResult ? (imageResult.error ? 'failed' : 'sent') : 'not sent',
-                result: imageResult
-            }
-        };
 
-        await mongoose.connection.collection('messages').insertOne(messageDetails);
 
         res.json({
             success: true,
@@ -138,12 +119,4 @@ app.post('/send', upload.single('image'), async (req, res) => {
     }
 });
 
-// Start the server and connect to the database
-local_db_connection().then(async () => {
-    app.listen(port, () => {
-        console.log(`Server started on port ${port}`);
-    });
-}).catch(err => {
-    console.error('Failed to start server:', err);
-    process.exit(1); // Exit process if server startup fails
-});
+
